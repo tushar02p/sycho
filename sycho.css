@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Oswald', sans-serif ;
+}
+.outerbox{
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient( to top, #657670 ,#b4b4b4);
+}
+.innerbox{
+    width: 400px;
+    margin: 0 auto;
+    position: relative;
+    top: 40%;
+    transform: translateY(-40%);
+    padding: 20px 40px;
+    background: linear-gradient(to top left, #ffffffff , #ffffff83);
+    border: 2px solid black;
+    box-shadow: 2px 2px 5px black;
+    backdrop-filter: blur(8px);
+    
+    border-radius: 10px;
+    z-index: 2;
+}
+.signup-header h1{
+    font-size: 2.5rem;
+    color: black;
+}
+.signup-header p{
+    font-size: 0.8rem;
+    color: black;
+}
+.signup-body{
+    margin: 20px 0;
+}
+.signup-body p{
+    margin: 10px 0;
+}
+.signup-body p label{
+    font-weight: 300;
+    color: black;
+}
+.signup-body p input{
+    width: 100%;
+    padding: 10px;
+    border: 2px solid black ;
+    border-radius: 5px;
+    font-size: 1rem;
+    margin-top: 4px;
+}
+.signup-footer p{
+    color: black;
+    text-align: center;
+}
+#submit{
+  background-color: gray;
+  border: none;
+  color: white;
+  cursor: pointer;
+
+
+}
+#submit:hover{
+    color: black;
+}
+#submit p a{
+    color: navy;
+   }
+    
+
